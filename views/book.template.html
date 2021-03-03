@@ -2,20 +2,13 @@
     <label for="search">Search Book</label>
     <input type="text" class="form-control" ng-model="$ctrl.query">
 </div>
-<div class="form-group">
-    <label for="sortby">Sort By</label>
-    <select ng-model="$ctrl.orderProp" class="form-control">
-        <option value="title">Alphabetical</option>
-        <option value="age">Newest</option>
-    </select>
-</div>
 <div class="row no-gutters">
-    <div class="card" style="margin: 10px; width: 18rem;" ng-repeat="book in $ctrl.books | filter: $ctrl.query | orderBy: $ctrl.orderProp">
+    <div class="card" style="margin: 10px; width: 18rem;" ng-repeat="book in $ctrl.books | filter: $ctrl.query">
         <img ng-src="{{ book.image }}" class="card-img-top" alt="{{ book.title }}">
         <div class="card-body">
             <h5 class="card-title">{{ book.title }}</h5>
             <p class="card-text">{{ book.description }}</p>
-            <span>{{ book.price }}</span>
+            <span>${{ book.price }}</span><br>
             <a href="#!/book/{{book.id}}" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>

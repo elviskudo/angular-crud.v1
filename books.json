@@ -9,28 +9,28 @@
     {
         "id": 2,
         "title": "Nodejs Developer",
-        "description": "How to become Nodejs Developer in One hour",
+        "description": "How to become Nodejs Developer in Three hour",
         "image": "https://images-na.ssl-images-amazon.com/images/I/51QGomXnwvL._SX258_BO1,204,203,200_.jpg",
         "price": 80
     },
     {
         "id": 3,
         "title": "Java Developer",
-        "description": "How to become Java Developer in One hour",
+        "description": "How to become Java Developer in Four hour",
         "image": "https://2.bp.blogspot.com/-06CvjnEGBTA/WxdC-CfBKJI/AAAAAAAALiU/NHv70aLX5CwnZkB7jMJ0pYTtDVD2Fty1ACEwYBhgL/s320/Java%2BA%2BBeginner%2527s%2BGuide%252C%2BSeventh%2BEdition.jpg",
         "price": 120
     },
     {
         "id": 4,
         "title": "C++ Developer",
-        "description": "How to become C++ Developer in One hour",
+        "description": "How to become C++ Developer in Twelve hour",
         "image": "https://miro.medium.com/max/362/1*Mkr0yBZ8eU6oz-l8CJJv6Q.png",
         "price": 240
     },
     {
         "id": 5,
         "title": "C# Developer",
-        "description": "How to become C# Developer in One hour",
+        "description": "How to become C# Developer in Eleven hour",
         "image": "https://miro.medium.com/max/768/0*QkB8hU6509OL63p7.jpg",
         "price": 20
     }
